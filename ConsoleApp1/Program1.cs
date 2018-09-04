@@ -14,7 +14,7 @@ namespace ConsoleApp1
     {
         static void Main1(string[] args)
         {
-
+            // New changes for checking
             string datetime = DateTime.Now.ToString("yyyyMMddHHmmss");
             string LogFolder = @"C:\Log\";
             try

@@ -12,6 +12,7 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
+            //New changes one
             string datetime = DateTime.Now.ToString("yyyyMMddHHmmss");
             string LogFolder = @"C:\Log\";
             string filename1 = string.Empty;
