@@ -95,6 +95,7 @@ namespace ConsoleApp1
                     "Dummy1" + "' and Table_SChema='" + SchemaName + "'" +
                                  "and Column_Name in (" + @ExcelHeaderColumn + ") for xml path('')),1,1,'') AS ColumnList";
 
+                    /////////Add comment for test
 
                     //Get Matching Column List from SQL Server
                     string SQLColumnList = "";
